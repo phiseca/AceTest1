@@ -1,0 +1,16 @@
+name: AceTest1
+main: io.github.phiseca.AceTest1
+version: 0.0.1
+description: Much lol.
+
+commands:
+  box:
+    description: box player.
+    usage: /<command> [player]
+    permission: AceTest1.box
+    permission-message: You don't have <permission>
+    
+permissions:
+  AceTest1.box:
+    description: Allow you to Box user  
+    default: op
